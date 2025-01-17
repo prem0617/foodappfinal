@@ -32,7 +32,7 @@ const MyOrders = () => {
     queryFn: async () => {
       try {
         const response = await axios.get(
-          "https://full-stack-task-management-app-zlja.onrender.com/order/all",
+          "https://foodappfinal.onrender.com/order/all",
           {
             withCredentials: true,
           }

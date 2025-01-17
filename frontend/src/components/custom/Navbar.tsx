@@ -36,7 +36,7 @@ const Navbar = () => {
     mutationFn: async () => {
       try {
         const response = await axios.get(
-          "https://full-stack-task-management-app-zlja.onrender.com/auth/logout",
+          "https://foodappfinal.onrender.com/auth/logout",
           {
             withCredentials: true,
           }

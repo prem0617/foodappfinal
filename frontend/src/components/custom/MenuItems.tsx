@@ -50,7 +50,7 @@ const MenuItems: React.FC = () => {
     queryFn: async () => {
       try {
         const response = await axios.get(
-          "https://full-stack-task-management-app-zlja.onrender.com/menu",
+          "https://foodappfinal.onrender.com/menu",
           {
             withCredentials: true,
           }
@@ -74,7 +74,7 @@ const MenuItems: React.FC = () => {
       try {
         const { name, category, price } = formData;
         const response = await axios.post(
-          "https://full-stack-task-management-app-zlja.onrender.com/menu",
+          "https://foodappfinal.onrender.com/menu",
           {
             name,
             price,

@@ -25,7 +25,7 @@ const LoginPage = () => {
     mutationFn: async ({ username, password }: RegisterUser) => {
       try {
         const response = await axios.post(
-          "https://full-stack-task-management-app-zlja.onrender.com/auth/register",
+          "https://foodappfinal.onrender.com/auth/register",
           { username, password },
           { withCredentials: true }
         );

@@ -38,7 +38,7 @@ function App() {
     queryFn: async () => {
       try {
         const response = await axios.get(
-          "https://full-stack-task-management-app-zlja.onrender.com/auth/getMe",
+          "https://foodappfinal.onrender.com/auth/getMe",
           {
             withCredentials: true,
           }

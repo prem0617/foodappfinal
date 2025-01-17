@@ -33,7 +33,7 @@ const CartPage = () => {
     mutationFn: async ({ orderArray, price }: PlaceOrder) => {
       try {
         const response = await axios.post(
-          "https://full-stack-task-management-app-zlja.onrender.com/order",
+          "https://foodappfinal.onrender.com/order",
           {
             items: orderArray,
             totalAmount: price,
