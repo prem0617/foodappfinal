@@ -308,7 +308,7 @@ var logout = function (req, res) {
           secure: process.env.NODE_ENV === "production",
           sameSite: "lax",
         });
-        res.deleteCookie("foodApp");
+        // res.deleteCookie("foodApp");
         res.status(200).json({ message: "Logged out successfully" });
       } catch (error) {
         console.error("Logout error:", error);
